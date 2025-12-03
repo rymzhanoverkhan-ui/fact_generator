@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(120deg, #6a11cb, #2575fc);
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    backdrop-filter: blur(8px);
+}
+
+button {
+    background: #ffdd57;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #ffe88c;
+}
+
+.fact {
+    margin-top: 20px;
+    font-size: 18px;
+}
